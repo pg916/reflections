@@ -1,0 +1,49 @@
+What happens when you initialize your repository? Why do you need to do it?
+It collects all the files in the directory to track.
+
+How is the staging area different from the working directory and repository? What value does it add?
+Working directory contains all files.
+Repository contains files that we want to track.
+Staging area enables us to identiy files we want to add to the repository.
+
+How can you use the staging area to make sure that you one commit per logical change?
+Only bring into staging area files that contain changes you want to commit.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Branches can provide an alternate route from the master.
+The master can be the code that always work (i.e. production quality work).
+Branches allow context swtiching to break off from the master
+to fix bugs or experiment on new features and merge back when ready.
+
+How do diagrams help you visualize the branch structure?
+
+Using git log --graph --oneline branch_name_1 branch_name_2
+provides the ability to visually see the list of commit made to 
+branch_name_1 before branch_name_2 was checked out, commits made to
+branch_name_2, and commits made to branch_name_1 after branch_name_2
+is checked out.
+
+What is the result or merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+When we merge two branches all the commits associated with both
+branches are combined into one branch.
+We represent it the diagram the way do to show that all the 
+commit made to the branch are now merged into the master.
+This gives us the ability to see all the commits made on the
+combined branches.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Pros
+Automatic is more efficient
+Detects merge conflicts
+Tracks history of commits on the merged branches
+
+Cons
+Sometimes conflicts may not be detected
+This will require manual trouble shooting and resolution
+
+
