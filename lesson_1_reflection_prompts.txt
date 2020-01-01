@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    No need to read every line of code to spot differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Can see history of all changes made to the code over time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: Manual save code with meaningful changes only.
+    Pros: Fewer versions compared to auto saving.
+    Pros: Prevent auto saving in the middle of writing code.
+    Pros: Auto saved code may not execute.
+    Cons: Without auto saving, code changes could be lost. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is developed for programers.
+    Since code files are interlinked, multiple files are saved together.
+    Other platforms are developed for content creaters.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows information about recent commits.
+    Git diff shows changes between 2 commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can use checkout to go back and determine where the change was made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to log in my Phyton datascience code.
