@@ -16,3 +16,10 @@ Forks allow:
 	- Others to replicate a repository without changing the original repository.
 	- GitHub to track number of 'forks' created from a GitHub repository
 	- Other to provide feedback to the author of the original repository on GitHub.
+
+What is the beneift of having the last known state of the remote stored locally?
+
+Helps detect when the repository stored locally is our of synch with the GitHub respository.
+If changes are made to the local or GitHub respository independently, having the last known
+state of the remote can be detected and conflicts resolved.
+
