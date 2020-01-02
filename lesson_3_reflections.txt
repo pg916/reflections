@@ -23,3 +23,9 @@ Helps detect when the repository stored locally is our of synch with the GitHub 
 If changes are made to the local or GitHub respository independently, having the last known
 state of the remote can be detected and conflicts resolved.
 
+How would you collaborate without using Git or GitHub? What would easier and what would be harder?
+
+Without these tools, we would have to use another file sharing and storing platform.
+It would more difficult and less efficient to track all the changes
+by collaborators who are all working on the same files.
+
