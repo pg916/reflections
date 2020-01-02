@@ -6,3 +6,13 @@ When would you want to create a remote repository rather than keeping all your w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 - To ensure that only the approritate files are committed
+
+Describe difference between fork, clone, and branch. When would you use one instead of another?
+
+Branches are created within a repository and are used to create new code lines for new features.
+Clones are used to replicate a repository on your local computer or on GitHub.
+Forks is a GitHub feature used to replicate a repository. 
+Forks allow:
+	- Others to replicate a repository without changing the original repository.
+	- GitHub to track number of 'forks' created from a GitHub repository
+	- Other to provide feedback to the author of the original repository on GitHub.
