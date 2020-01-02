@@ -29,3 +29,7 @@ Without these tools, we would have to use another file sharing and storing platf
 It would more difficult and less efficient to track all the changes
 by collaborators who are all working on the same files.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Keep experimental features on a seperate branch until they are ready to be 
+merged into the master branch.
